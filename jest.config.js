@@ -11,6 +11,6 @@ module.exports = {
   transform: {
     '.+\\.ts$': 'ts-jest'
   },
-  coverageProvider: 'v8',
+  coverageProvider: 'babel',
   testEnvironment: 'node'
 }
